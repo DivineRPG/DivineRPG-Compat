@@ -1,0 +1,121 @@
+plugins {
+    id 'eclipse'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '5.1.+'
+}
+
+version = '1.0'
+group = 'divinerpg.divinerpg-compat'
+archivesBaseName = 'divinerpg_compat'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
+minecraft {
+    mappings channel: 'official', version: '1.19.3'
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'forge.enabledGameTestNamespaces', 'divinerpg_compat'
+            mods {
+                divinerpg_compat {
+                    source sourceSets.main
+                }
+            }
+        }
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'forge.enabledGameTestNamespaces', 'divinerpg_compat'
+            mods {
+                divinerpg_compat {
+                    source sourceSets.main
+                }
+            }
+        }
+        gameTestServer {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'forge.enabledGameTestNamespaces', 'divinerpg_compat'
+            mods {
+                divinerpg_compat {
+                    source sourceSets.main
+                }
+            }
+        }
+        data {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            args '--mod', 'divinerpg_compat', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            mods {
+                divinerpg_compat {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+repositories {
+    maven { url = "https://minecraft.curseforge.com/api/maven/"}
+    maven { url = "https://dvs1.progwml6.com/files/maven/"}
+    maven { url = "https://modmaven.dev"}
+    maven { url = "https://www.cursemaven.com"}
+    maven { url 'https://maven.blamejared.com'}
+    maven { url "https://maven.shedaniel.me" }
+    maven { url = uri("https://maven.architectury.dev/") }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.19.3-44.1.0'
+    compileOnly fg.deobf("curse.maven:official-divinerpg-363543:4205686") //DivineRPG
+    runtimeOnly fg.deobf("curse.maven:official-divinerpg-363543:4205686") //DivineRPG
+
+    runtimeOnly fg.deobf("curse.maven:jade-324717:4199865") //Jade
+//    runtimeOnly fg.deobf("dev.architectury:architectury-forge:7.0.66") // Architectury
+//    runtimeOnly fg.deobf("me.shedaniel.cloth:cloth-config-forge:9.0.94") // Cloth
+//    runtimeOnly fg.deobf("me.shedaniel:RoughlyEnoughItems-forge:10.0.581") //Rei
+//    runtimeOnly fg.deobf("curse.maven:cucumber-272335:4284311") // Cucumber
+//    runtimeOnly fg.deobf("curse.maven:mysticalagriculture-246640:4284321") // Mystical Agriculture
+//    runtimeOnly fg.deobf("curse.maven:mysticalcustomization-280441:4284327") // Mystical Customization
+}
+
+jar {
+    manifest {
+        attributes([
+                "Specification-Title"     : "divinerpg_compat",
+                "Specification-Vendor"    : "TeamDivineRPG",
+                "Specification-Version"   : "1.0",
+                "Implementation-Title"    : project.name,
+                "Implementation-Version"  : project.jar.archiveVersion,
+                "Implementation-Vendor"   : "TeamDivineRPG",
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+}
+
+jar.finalizedBy('reobfJar')
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifact jar
+        }
+    }
+    repositories {
+        maven {
+            url "file://${project.projectDir}/mcmodsrepo"
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

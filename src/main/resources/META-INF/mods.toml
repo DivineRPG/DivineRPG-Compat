@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[44,)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/DivineRPG/DivineRPG-Compat/issues"
+[[mods]]
+modId="divinerpg_compat"
+version="${file.jarVersion}"
+displayName="DivineRPG Compatability"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/divinerpg-compatability"
+authors="NicosaurusRex99, The_Lemon_Juiced"
+description='''
+Compat
+'''
+[[dependencies.divinerpg_compat]]
+    modId="forge"
+    mandatory=true
+    versionRange="[44,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.divinerpg_compat]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.19.3,1.20)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.divinerpg_compat]]
+modId="divinerpg"
+mandatory=true
+versionRange="[1.9.7, )"
+ordering="NONE"
+side="BOTH"
