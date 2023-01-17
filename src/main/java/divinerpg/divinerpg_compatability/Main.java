@@ -1,6 +1,7 @@
 package divinerpg.divinerpg_compatability;
 
 import com.mojang.logging.LogUtils;
+import divinerpg.compat.ModCompat;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.api.distmarker.Dist;
@@ -18,22 +19,19 @@ import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
 @Mod(Main.MODID)
-public class Main
-{
+public class Main {
     public static final String MODID = "divinerpg_compat";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public Main()
-    {
+    public Main() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event)
-    {
-
+    private void commonSetup(final FMLCommonSetupEvent event) {
+        ModCompat.initCommon(event);
     }
 
 }
