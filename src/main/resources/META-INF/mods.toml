@@ -6,6 +6,7 @@ issueTrackerURL="https://github.com/DivineRPG/DivineRPG-Compat/issues"
 modId="divinerpg_compat"
 version="${file.jarVersion}"
 displayName="DivineRPG Compatability"
+updateJSONURL = "https://raw.githubusercontent.com/DivineRPG/DivineRPG-Assets/main/divinerpg_compat.json"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/divinerpg-compatability"
 authors="NicosaurusRex99, The_Lemon_Juiced"
 description='''
