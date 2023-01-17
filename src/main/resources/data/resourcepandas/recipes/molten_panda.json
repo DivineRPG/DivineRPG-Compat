@@ -1,0 +1,13 @@
+{
+  "type": "resourcepandas:panda_recipe",
+  "name": "Molten",
+  "ingredient": {
+    "item": "divinerpg:molten_stone"
+  },
+  "hexColor": "#ffa621",
+  "chance": 0.4,
+  "alpha": 1.0,
+  "result": {
+    "item": "divinerpg:molten_shards"
+  }
+}

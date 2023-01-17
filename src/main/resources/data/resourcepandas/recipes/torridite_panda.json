@@ -1,0 +1,13 @@
+{
+  "type": "resourcepandas:panda_recipe",
+  "name": "Torridite",
+  "ingredient": {
+    "tag": "forge:storage_blocks/torridite"
+  },
+  "hexColor": "#bd150f",
+  "chance": 0.6,
+  "alpha": 1.0,
+  "result": {
+    "item": "divinerpg:torridite_ingot"
+  }
+}

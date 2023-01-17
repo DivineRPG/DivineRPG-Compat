@@ -1,0 +1,13 @@
+{
+  "type": "resourcepandas:panda_recipe",
+  "name": "Terran",
+  "ingredient": {
+    "item": "divinerpg:terran_stone"
+  },
+  "hexColor": "#3d9c14",
+  "chance": 0.5,
+  "alpha": 1.0,
+  "result": {
+    "item": "divinerpg:terran_shards"
+  }
+}

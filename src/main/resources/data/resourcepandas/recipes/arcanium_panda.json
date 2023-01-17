@@ -1,0 +1,13 @@
+{
+  "type": "resourcepandas:panda_recipe",
+  "name": "Arcanium",
+  "ingredient": {
+    "tag": "forge:storage_blocks/arcanium"
+  },
+  "hexColor": "#003796",
+  "chance": 0.2,
+  "alpha": 1.0,
+  "result": {
+    "item": "divinerpg:piece_of_raw_arcanium"
+  }
+}

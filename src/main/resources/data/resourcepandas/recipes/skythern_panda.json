@@ -1,0 +1,13 @@
+{
+  "type": "resourcepandas:panda_recipe",
+  "name": "Skythern",
+  "ingredient": {
+    "tag": "forge:storage_blocks/skythern"
+  },
+  "hexColor": "#ccd9db",
+  "chance": 0.3,
+  "alpha": 1.0,
+  "result": {
+    "item": "divinerpg:skythern_fragments"
+  }
+}

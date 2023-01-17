@@ -1,0 +1,13 @@
+{
+  "type": "resourcepandas:panda_recipe",
+  "name": "Jungle",
+  "ingredient": {
+    "item": "divinerpg:jungle_stone"
+  },
+  "hexColor": "#7eed87",
+  "chance": 0.6,
+  "alpha": 1.0,
+  "result": {
+    "item": "divinerpg:jungle_shards"
+  }
+}

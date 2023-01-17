@@ -85,6 +85,7 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:cucumber-272335:4284311") // Cucumber
     runtimeOnly fg.deobf("curse.maven:mysticalagriculture-246640:4284321") // Mystical Agriculture
     runtimeOnly fg.deobf("curse.maven:mysticalcustomization-280441:4284327") // Mystical Customization
+    runtimeOnly fg.deobf("curse.maven:resource-pandas-410681:4229230") // Resource Pandas
 }
 
 jar {

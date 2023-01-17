@@ -1,0 +1,13 @@
+{
+  "type": "resourcepandas:panda_recipe",
+  "name": "Ender",
+  "ingredient": {
+    "item": "divinerpg:ender_stone"
+  },
+  "hexColor": "#cb3dff",
+  "chance": 0.3,
+  "alpha": 1.0,
+  "result": {
+    "item": "divinerpg:ender_shards"
+  }
+}

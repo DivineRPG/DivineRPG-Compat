@@ -1,0 +1,13 @@
+{
+  "type": "resourcepandas:panda_recipe",
+  "name": "Corrupted",
+  "ingredient": {
+    "item": "divinerpg:corrupted_stone"
+  },
+  "hexColor": "#2404b5",
+  "chance": 0.5,
+  "alpha": 1.0,
+  "result": {
+    "item": "divinerpg:corrupted_shards"
+  }
+}

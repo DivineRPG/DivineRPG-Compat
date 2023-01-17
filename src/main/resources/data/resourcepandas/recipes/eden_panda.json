@@ -1,0 +1,13 @@
+{
+  "type": "resourcepandas:panda_recipe",
+  "name": "Eden",
+  "ingredient": {
+    "tag": "forge:storage_blocks/eden"
+  },
+  "hexColor": "#b85407",
+  "chance": 0.2,
+  "alpha": 1.0,
+  "result": {
+    "item": "divinerpg:eden_fragments"
+  }
+}

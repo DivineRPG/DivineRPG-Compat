@@ -1,0 +1,13 @@
+{
+  "type": "resourcepandas:panda_recipe",
+  "name": "Rupee",
+  "ingredient": {
+    "tag": "forge:storage_blocks/rupee"
+  },
+  "hexColor": "#24c7e0",
+  "chance": 0.3,
+  "alpha": 1.0,
+  "result": {
+    "item": "divinerpg:rupee_ingot"
+  }
+}
