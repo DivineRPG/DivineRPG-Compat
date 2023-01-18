@@ -12,7 +12,7 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
 minecraft {
-    mappings channel: 'official', version: '1.19.3'
+    mappings channel: 'official', version: '1.19.2'
     runs {
         client {
             workingDirectory project.file('run')
@@ -74,18 +74,21 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.19.3-44.1.0'
-    compileOnly fg.deobf("curse.maven:official-divinerpg-363543:4205686") //DivineRPG
-    runtimeOnly fg.deobf("curse.maven:official-divinerpg-363543:4205686") //DivineRPG
+    minecraft 'net.minecraftforge:forge:1.19.2-43.2.0'
 
-    runtimeOnly fg.deobf("curse.maven:jade-324717:4199865") //Jade
-//    runtimeOnly fg.deobf("dev.architectury:architectury-forge:7.0.66") // Architectury
-//    runtimeOnly fg.deobf("me.shedaniel.cloth:cloth-config-forge:9.0.94") // Cloth
-//    runtimeOnly fg.deobf("me.shedaniel:RoughlyEnoughItems-forge:10.0.581") //Rei
-    runtimeOnly fg.deobf("curse.maven:cucumber-272335:4284311") // Cucumber
-    runtimeOnly fg.deobf("curse.maven:mysticalagriculture-246640:4284321") // Mystical Agriculture
-    runtimeOnly fg.deobf("curse.maven:mysticalcustomization-280441:4284327") // Mystical Customization
-    runtimeOnly fg.deobf("curse.maven:resource-pandas-410681:4229230") // Resource Pandas
+    compileOnly fg.deobf("mezz.jei:jei-1.19-common-api:11.0.0.215") //Just Enough Items
+    compileOnly fg.deobf("mezz.jei:jei-1.19-forge-api:11.0.0.215") //Just Enough Items
+    runtimeOnly fg.deobf("mezz.jei:jei-1.19-common:11.0.0.215") //Just Enough Items
+    runtimeOnly fg.deobf("mezz.jei:jei-1.19-forge:11.0.0.215") //Just Enough Items
+
+    compileOnly fg.deobf("curse.maven:official-divinerpg-363543:4120502") //DivineRPG
+    runtimeOnly fg.deobf("curse.maven:official-divinerpg-363543:4120502") //DivineRPG
+
+    runtimeOnly fg.deobf("curse.maven:jade-324717:4318618") //Jade
+    runtimeOnly fg.deobf("curse.maven:cucumber-272335:4055932") // Cucumber
+    runtimeOnly fg.deobf("curse.maven:mysticalagriculture-246640:4105400") // Mystical Agriculture
+    runtimeOnly fg.deobf("curse.maven:mysticalcustomization-280441:4044238") // Mystical Customization
+    runtimeOnly fg.deobf("curse.maven:resource-pandas-410681:4026976") // Resource Pandas
 //    runtimeOnly fg.deobf("curse.maven:advanced-mining-dimension-332640:4162790") // Advanced mining dimension
 }
 
