@@ -1,0 +1,23 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "item": {
+    "tag": "forge:ores/arlemite"
+  },
+  "result": {
+    "items": [
+      {
+        "tag": "forge:raw_materials/arlemite",
+        "count": 3
+      },
+      {
+        "tag": "forge:raw_materials/arlemite",
+        "chance": 0.5
+      },
+      {
+        "tag": "forge:raw_materials/arlemite",
+        "chance": 0.5
+      }
+    ]
+  },
+  "duration": 40
+}

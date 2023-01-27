@@ -1,0 +1,23 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "item": {
+    "tag": "forge:ores/rupee"
+  },
+  "result": {
+    "items": [
+      {
+        "tag": "forge:raw_materials/rupee",
+        "count": 3
+      },
+      {
+        "tag": "forge:raw_materials/rupee",
+        "chance": 0.5
+      },
+      {
+        "tag": "forge:raw_materials/rupee",
+        "chance": 0.5
+      }
+    ]
+  },
+  "duration": 40
+}

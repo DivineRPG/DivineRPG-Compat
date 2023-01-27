@@ -19,14 +19,35 @@ Compat
     ordering="NONE"
     side="BOTH"
 [[dependencies.divinerpg_compat]]
-modId="minecraft"
-mandatory=true
-versionRange="[1.19.3,1.20)"
-ordering="NONE"
-side="BOTH"
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.3,1.20)"
+    ordering="NONE"
+    side="BOTH"
 [[dependencies.divinerpg_compat]]
-modId="divinerpg"
-mandatory=true
-versionRange="[1.9.7, )"
-ordering="NONE"
-side="BOTH"
+    modId="divinerpg"
+    mandatory=true
+    versionRange="[1.9.7, )"
+    ordering="NONE"
+    side="BOTH"
+
+# Non-Mandatory Dependencies
+# Integrated Dynamics Optional Dependencies
+[[dependencies.divinerpg_compat]]
+    modId="commoncapabilities"
+    mandatory=false
+    versionRange = "[2.8.3,)"
+    ordering = "NONE"
+    side = "BOTH"
+[[dependencies.divinerpg_compat]]
+    modId="cyclopscore"
+    mandatory=false
+    versionRange="[1.17.5,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.divinerpg_compat]]
+    modId="integrateddynamics"
+    mandatory=false
+    versionRange="[1.14.8,)"
+    ordering="NONE"
+    side="BOTH"

@@ -1,0 +1,19 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "item": {
+    "item": "divinerpg:skythern_ore"
+  },
+  "result": {
+    "items": [
+      {
+        "item": "divinerpg:skythern_fragments",
+        "count": 2
+      },
+      {
+        "item": "divinerpg:skythern_fragments",
+        "chance": 0.5
+      }
+    ]
+  },
+  "duration": 40
+}

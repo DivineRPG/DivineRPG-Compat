@@ -1,0 +1,23 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "item": {
+    "tag": "forge:ores/realmite"
+  },
+  "result": {
+    "items": [
+      {
+        "tag": "forge:raw_materials/realmite",
+        "count": 3
+      },
+      {
+        "tag": "forge:raw_materials/realmite",
+        "chance": 0.5
+      },
+      {
+        "tag": "forge:raw_materials/realmite",
+        "chance": 0.5
+      }
+    ]
+  },
+  "duration": 40
+}

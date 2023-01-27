@@ -1,0 +1,19 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "item": {
+    "item": "divinerpg:wildwood_ore"
+  },
+  "result": {
+    "items": [
+      {
+        "item": "divinerpg:wildwood_fragments",
+        "count": 2
+      },
+      {
+        "item": "divinerpg:wildwood_fragments",
+        "chance": 0.5
+      }
+    ]
+  },
+  "duration": 40
+}

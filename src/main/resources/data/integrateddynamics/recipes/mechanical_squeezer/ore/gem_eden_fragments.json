@@ -1,0 +1,19 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "item": {
+    "item": "divinerpg:eden_ore"
+  },
+  "result": {
+    "items": [
+      {
+        "item": "divinerpg:eden_fragments",
+        "count": 2
+      },
+      {
+        "item": "divinerpg:eden_fragments",
+        "chance": 0.5
+      }
+    ]
+  },
+  "duration": 40
+}
