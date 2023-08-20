@@ -7,7 +7,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import java.io.IOException;
 
 public class ModCompat {
-    public static void initCommon(FMLCommonSetupEvent e) throws IOException {
+    public static void initCommon(FMLCommonSetupEvent e) {
         if (ModList.get().isLoaded("mysticalcustomization")) {
             MysticalCustomizationCompat.init();
         }

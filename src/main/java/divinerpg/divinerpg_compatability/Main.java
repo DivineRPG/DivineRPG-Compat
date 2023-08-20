@@ -1,7 +1,6 @@
 package divinerpg.divinerpg_compatability;
 
 import com.mojang.logging.LogUtils;
-import divinerpg.compat.ModCompat;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.api.distmarker.Dist;
