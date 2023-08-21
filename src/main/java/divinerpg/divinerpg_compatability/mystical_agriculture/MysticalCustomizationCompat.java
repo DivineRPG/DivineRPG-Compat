@@ -10,7 +10,11 @@ public class MysticalCustomizationCompat {
     public static void init() {
 
         Map<String, String> jsonContentMap = new HashMap<>();
-        jsonContentMap.put("apalachia_fragments.json", generateJSON("Apalachia Fragments", 6, "divinerpg:apalachia_fragments", "a200b7", "mysticalagriculture:block/flower_gem", "mysticalagriculture:item/essence_gem", "mysticalagriculture:item/mystical_seeds", 0.4, "divinerpg:apalachia_block"));
+        jsonContentMap.put("eden_fragments.json", generateJSON("Eden Fragments", 2, "divinerpg:eden_fragments", "FBFF06", "mysticalagriculture:block/flower_gem", "mysticalagriculture:item/essence_gem", "mysticalagriculture:item/mystical_seeds", 0.4, "divinerpg:eden_block"));
+        jsonContentMap.put("wildwood_fragments.json", generateJSON("Wildwood Fragments", 3, "divinerpg:wildwood_fragments", "#064AFF", "mysticalagriculture:block/flower_gem", "mysticalagriculture:item/essence_gem", "mysticalagriculture:item/mystical_seeds", 0.4, "divinerpg:wildwood_block"));
+        jsonContentMap.put("apalachia_fragments.json", generateJSON("Apalachia Fragments", 4, "divinerpg:apalachia_fragments", "a200b7", "mysticalagriculture:block/flower_gem", "mysticalagriculture:item/essence_gem", "mysticalagriculture:item/mystical_seeds", 0.4, "divinerpg:apalachia_block"));
+        jsonContentMap.put("skythern_fragments.json", generateJSON("Skythern Fragments", 5, "divinerpg:skythern_fragments", "D6D6D1", "mysticalagriculture:block/flower_gem", "mysticalagriculture:item/essence_gem", "mysticalagriculture:item/mystical_seeds", 0.4, "divinerpg:skythern_block"));
+        jsonContentMap.put("mortum_fragments.json", generateJSON("Mortum Fragments", 6, "divinerpg:mortum_fragments", "251E1E", "mysticalagriculture:block/flower_gem", "mysticalagriculture:item/essence_gem", "mysticalagriculture:item/mystical_seeds", 0.4, "divinerpg:mortum_block"));
 
         // Define the base directory for config files
         String configDir = "config/mysticalcustomization/crops/";
