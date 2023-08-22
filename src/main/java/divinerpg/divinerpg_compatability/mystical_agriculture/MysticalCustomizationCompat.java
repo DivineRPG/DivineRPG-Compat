@@ -15,6 +15,8 @@ public class MysticalCustomizationCompat {
         jsonContentMap.put("skythern_fragments.json", generateJSON("Skythern Fragments", 4, "divinerpg:skythern_fragments", "D6D6D1", "mysticalagriculture:block/flower_gem", "mysticalagriculture:item/essence_gem", "mysticalagriculture:item/mystical_seeds", 0.4, "divinerpg:skythern_block"));
         jsonContentMap.put("mortum_fragments.json", generateJSON("Mortum Fragments", 5, "divinerpg:mortum_fragments", "251E1E", "mysticalagriculture:block/flower_gem", "mysticalagriculture:item/essence_gem", "mysticalagriculture:item/mystical_seeds", 0.4, "divinerpg:mortum_block"));
 
+        //TODO - Arlemite, Bloodgem, Realmite, Rupee and Torridite ingot mystical agriculture compat
+
         // Define the base directory for config files
         String configDir = "config/mysticalcustomization/crops/";
 
