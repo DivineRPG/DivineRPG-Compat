@@ -9,9 +9,11 @@ public class IronJetpacksCompat {
     public static void init() {
 
         Map<String, String> jsonContentMap = new HashMap<>();
-        jsonContentMap.put("arlemite_jetpack.json", generateJSON("arlemite", 1, "36D615", 1.5, 10, "tag:forge/ingots/arlemite", 1.5, 4800000, 750, 1.03, 0.19, 0.21, 0.45, 0.39, 2.0, 1.8, 1.9));
-        jsonContentMap.put("realmite_jetpack.json", generateJSON("realmite", 1, "EA9C12", 1.5, 10, "tag:forge/ingots/realmite", 1.5, 4800000, 700, 1.03, 0.19, 0.21, 0.45, 0.39, 2.0, 1.8, 1.9));
-        jsonContentMap.put("rupee_jetpack.json", generateJSON("rupee", 1, "1292EA", 1.5, 10, "tag:forge/ingots/rupee", 1.5, 4800000, 750, 1.03, 0.19, 0.21, 0.45, 0.39, 2.0, 1.8, 1.9));
+        jsonContentMap.put("arlemite_jetpack.json", generateJSON("arlemite", 1, "36D615", 1.5, 10, "tag:forge/ingots/arlemite", 1.5, 4800000, 750, 1.02, 0.19, 0.21, 0.47, 0.39, 2.0, 1.8, 1.9));
+        jsonContentMap.put("realmite_jetpack.json", generateJSON("realmite", 1, "EA9C12", 1.5, 10, "tag:forge/ingots/realmite", 1.5, 4800000, 700, 1.01, 0.19, 0.21, 0.45, 0.39, 2.0, 1.8, 1.9));
+        jsonContentMap.put("rupee_jetpack.json", generateJSON("rupee", 1, "1292EA", 1.5, 10, "tag:forge/ingots/rupee", 1.5, 4800000, 750, 1.04, 0.19, 0.21, 0.46, 0.39, 2.0, 1.8, 1.9));
+
+        //TODO - Figure out the recipe format for the jetpacks
 
         // Define the base directory for config files
         String configDir = "config/ironjetpacks/jetpacks/";
