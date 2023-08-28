@@ -120,6 +120,9 @@ dependencies {
     runtimeOnly(fg.deobf("curse.maven:common_capabilities-247007:4620480"))
     runtimeOnly(fg.deobf("curse.maven:cyclops_core-232758:4681655"))
     runtimeOnly(fg.deobf("curse.maven:integrated_dynamics-236307:4683419"))
+
+    // Ender IO Optional Dependency
+    runtimeOnly fg.deobf("curse.maven:ender-io-64578:4713031")
 }
 def resourceTargets = ['META-INF/mods.toml', 'pack.mcmeta']
 def replaceProperties = [
