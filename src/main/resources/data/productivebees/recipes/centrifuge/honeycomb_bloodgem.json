@@ -1,0 +1,33 @@
+{
+  "type": "productivebees:centrifuge",
+  "ingredient": {
+    "type": "forge:nbt",
+    "item": "productivebees:configurable_honeycomb",
+    "nbt": {
+      "EntityTag": {
+        "type": "productivebees:bloodgem"
+      }
+    }
+  },
+  "outputs": [
+    {
+      "item": {
+        "item": "divinerpg:bloodgem"
+      },
+      "min": 1,
+      "max": 4,
+      "chance": 85
+    },
+    {
+      "item": {
+        "tag": "forge:wax"
+      }
+    },
+    {
+      "fluid": {
+        "fluid": "productivebees:honey"
+      },
+      "amount": 50
+    }
+  ]
+}

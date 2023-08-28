@@ -1,0 +1,23 @@
+{
+  "type": "productivebees:advanced_beehive",
+  "ingredient": "divinerpg:raw_realmite",
+  "results": [
+    {
+      "item": {
+        "type": "forge:nbt",
+        "item": "productivebees:configurable_honeycomb",
+        "nbt": {
+          "EntityTag": {
+            "type": "productivebees:realmite"
+          }
+        }
+      }
+    }
+  ],
+  "conditions": [
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:realmite"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "productivebees:centrifuge",
+  "ingredient": {
+    "type": "forge:nbt",
+    "item": "productivebees:configurable_honeycomb",
+    "nbt": {
+      "EntityTag": {
+        "type": "productivebees:realmite"
+      }
+    }
+  },
+  "outputs": [
+    {
+      "item": {
+        "item": "divinerpg:raw_realmite"
+      },
+      "min": 1,
+      "max": 5,
+      "chance": 90
+    },
+    {
+      "item": {
+        "tag": "forge:wax"
+      }
+    },
+    {
+      "fluid": {
+        "fluid": "productivebees:honey"
+      },
+      "amount": 50
+    }
+  ]
+}

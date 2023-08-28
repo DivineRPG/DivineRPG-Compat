@@ -1,0 +1,16 @@
+{
+  "primaryColor": "#0066ff",
+  "secondaryColor": "#99c2ff",
+  "flowerTag": "forge:storage_blocks/rupee",
+  "name": "Rupee",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "productivebees"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "divinerpg"
+    }
+  ]
+}
