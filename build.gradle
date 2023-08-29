@@ -107,22 +107,17 @@ dependencies {
     runtimeOnly fg.deobf("curse.maven:official-divinerpg-363543:${divinerpg_id}") //DivineRPG
 
     runtimeOnly fg.deobf("curse.maven:jade-324717:${jade_id}") //Jade
-    implementation fg.deobf("com.blakebr0.cucumber:Cucumber:${minecraft_version}-${cucumber_version}")
-    implementation fg.deobf("com.blakebr0.mysticalagriculture:MysticalAgriculture:${minecraft_version}-${mystical_agriculture_version}")
-    implementation fg.deobf("com.blakebr0.mysticalcustomization:MysticalCustomization:${minecraft_version}-${mystical_customization_version}")
-    implementation fg.deobf("com.blakebr0.ironjetpacks:IronJetpacks:${minecraft_version}-${iron_jetpacks_version}")
-
-    runtimeOnly fg.deobf("curse.maven:resource-pandas-410681:${resource_pandas_id}") // Resource Pandas
-    runtimeOnly fg.deobf("curse.maven:advanced-mining-dimension-332640:${advanced_mining_dimension_id}") // Advanced mining dimension
-    runtimeOnly fg.deobf("curse.maven:productivebees-377897:${productivebees_id}") // Advanced mining dimension
-
-    // Integrated Dynamics Optional Dependency
-    runtimeOnly(fg.deobf("curse.maven:common_capabilities-247007:4620480"))
-    runtimeOnly(fg.deobf("curse.maven:cyclops_core-232758:4681655"))
-    runtimeOnly(fg.deobf("curse.maven:integrated_dynamics-236307:4683419"))
-
-    // Ender IO Optional Dependency
-    runtimeOnly fg.deobf("curse.maven:ender-io-64578:4713031")
+    implementation fg.deobf("com.blakebr0.cucumber:Cucumber:${minecraft_version}-${cucumber_version}") //Cucumber
+    implementation fg.deobf("com.blakebr0.mysticalagriculture:MysticalAgriculture:${minecraft_version}-${mystical_agriculture_version}") //Mystical Agriculture
+    implementation fg.deobf("com.blakebr0.mysticalcustomization:MysticalCustomization:${minecraft_version}-${mystical_customization_version}") //Mystical Customization
+    implementation fg.deobf("com.blakebr0.ironjetpacks:IronJetpacks:${minecraft_version}-${iron_jetpacks_version}") //Iron Jetpacks
+    runtimeOnly fg.deobf("curse.maven:resource-pandas-410681:${resource_pandas_id}") //Resource Pandas
+    runtimeOnly fg.deobf("curse.maven:advanced-mining-dimension-332640:${advanced_mining_dimension_id}") //Advanced mining dimension
+    runtimeOnly fg.deobf("curse.maven:productivebees-377897:${productivebees_id}") //Advanced mining dimension
+    runtimeOnly(fg.deobf("curse.maven:common_capabilities-247007:${common_capabilities_id}")) //Common Capabilities
+    runtimeOnly(fg.deobf("curse.maven:cyclops_core-232758:${cyclops_core_id}")) //Cyclops Core
+    runtimeOnly(fg.deobf("curse.maven:integrated_dynamics-236307:${integrated_dynamics_id}")) // Integrated Dynamics
+    runtimeOnly fg.deobf("curse.maven:ender-io-64578:${enderio_id}") //EnderIO
 }
 def resourceTargets = ['META-INF/mods.toml', 'pack.mcmeta']
 def replaceProperties = [
