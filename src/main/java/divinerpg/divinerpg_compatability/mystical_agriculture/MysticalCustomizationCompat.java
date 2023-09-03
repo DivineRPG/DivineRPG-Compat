@@ -15,11 +15,11 @@ public class MysticalCustomizationCompat {
         jsonContentMap.put("skythern_fragments.json", generateJSON("Skythern Fragments", 4, "divinerpg:skythern_fragments", "D6D6D1", "mysticalagriculture:block/flower_gem", "mysticalagriculture:item/essence_gem", "mysticalagriculture:item/mystical_seeds", 0.4, "divinerpg:skythern_block"));
         jsonContentMap.put("mortum_fragments.json", generateJSON("Mortum Fragments", 5, "divinerpg:mortum_fragments", "251E1E", "mysticalagriculture:block/flower_gem", "mysticalagriculture:item/essence_gem", "mysticalagriculture:item/mystical_seeds", 0.4, "divinerpg:mortum_block"));
 
-        jsonContentMap.put("arlemite_ingot.json", generateJSON("Arlemite Ingot", 1, "divinerpg:arlemite_ingot", "9DD75A", "mysticalagriculture:block/flower_ingot", "mysticalagriculture:item/essence_ingot", "mysticalagriculture:item/mystical_seeds", 0.4));
-        jsonContentMap.put("bloodgem.json", generateJSON("Bloodgem", 1, "divinerpg:bloodgem", "E76587", "mysticalagriculture:block/flower_gem", "mysticalagriculture:item/essence_gem", "mysticalagriculture:item/mystical_seeds", 0.4));
-        jsonContentMap.put("realmite_ingot.json", generateJSON("Realmite Ingot", 1, "divinerpg:realmite_ingot", "E48E2A", "mysticalagriculture:block/flower_ingot", "mysticalagriculture:item/essence_ingot", "mysticalagriculture:item/mystical_seeds", 0.4));
-        jsonContentMap.put("rupee_ingot.json", generateJSON("Rupee Ingot", 1, "divinerpg:rupee_ingot", "3BC6E4", "mysticalagriculture:block/flower_ingot", "mysticalagriculture:item/essence_ingot", "mysticalagriculture:item/mystical_seeds", 0.4));
-        jsonContentMap.put("torridite_ingot.json", generateJSON("Torridite Ingot", 1, "divinerpg:torridite_ingot", "F45321", "mysticalagriculture:block/flower_ingot", "mysticalagriculture:item/essence_ingot", "mysticalagriculture:item/mystical_seeds", 0.4));
+        jsonContentMap.put("arlemite_ingot.json", generateJSON("Arlemite Ingot", 5, "divinerpg:arlemite_ingot", "9DD75A", "mysticalagriculture:block/flower_ingot", "mysticalagriculture:item/essence_ingot", "mysticalagriculture:item/mystical_seeds", 0.4));
+        jsonContentMap.put("bloodgem.json", generateJSON("Bloodgem", 4, "divinerpg:bloodgem", "E76587", "mysticalagriculture:block/flower_gem", "mysticalagriculture:item/essence_gem", "mysticalagriculture:item/mystical_seeds", 0.4));
+        jsonContentMap.put("realmite_ingot.json", generateJSON("Realmite Ingot", 3, "divinerpg:realmite_ingot", "E48E2A", "mysticalagriculture:block/flower_ingot", "mysticalagriculture:item/essence_ingot", "mysticalagriculture:item/mystical_seeds", 0.4));
+        jsonContentMap.put("rupee_ingot.json", generateJSON("Rupee Ingot", 5, "divinerpg:rupee_ingot", "3BC6E4", "mysticalagriculture:block/flower_ingot", "mysticalagriculture:item/essence_ingot", "mysticalagriculture:item/mystical_seeds", 0.4));
+        jsonContentMap.put("torridite_ingot.json", generateJSON("Torridite Ingot", 5, "divinerpg:torridite_ingot", "F45321", "mysticalagriculture:block/flower_ingot", "mysticalagriculture:item/essence_ingot", "mysticalagriculture:item/mystical_seeds", 0.4));
 
         // Define the base directory for config files
         String configDir = "config/mysticalcustomization/crops/";
