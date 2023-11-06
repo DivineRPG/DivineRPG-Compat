@@ -1,6 +1,6 @@
 {
   "type": "productivebees:advanced_beehive",
-  "ingredient": "divinerpg:raw_rupee",
+  "ingredient": "productivebees:rupee",
   "results": [
     {
       "item": {

@@ -1,6 +1,6 @@
 {
   "type": "productivebees:advanced_beehive",
-  "ingredient": "divinerpg:raw_realmite",
+  "ingredient": "productivebees:realmite",
   "results": [
     {
       "item": {

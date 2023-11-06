@@ -1,6 +1,6 @@
 {
   "type": "productivebees:advanced_beehive",
-  "ingredient": "divinerpg:raw_torridite",
+  "ingredient": "productivebees:torridite",
   "results": [
     {
       "item": {

@@ -1,6 +1,6 @@
 {
   "type": "productivebees:advanced_beehive",
-  "ingredient": "divinerpg:raw_arlemite",
+  "ingredient": "productivebees:arlemite",
   "results": [
     {
       "item": {
