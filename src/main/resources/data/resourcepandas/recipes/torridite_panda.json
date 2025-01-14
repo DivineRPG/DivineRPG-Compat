@@ -2,7 +2,7 @@
   "type": "resourcepandas:panda_recipe",
   "name": "Torridite",
   "ingredient": {
-    "tag": "forge:storage_blocks/torridite"
+    "tag": "c:storage_blocks/torridite"
   },
   "hexColor": "#bd150f",
   "chance": 0.6,

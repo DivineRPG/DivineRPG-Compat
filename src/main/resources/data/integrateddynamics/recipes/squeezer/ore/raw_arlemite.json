@@ -1,20 +1,20 @@
 {
   "type": "integrateddynamics:squeezer",
   "item": {
-    "tag": "forge:ores/arlemite"
+    "tag": "c:ores/arlemite"
   },
   "result": {
     "items": [
       {
-        "tag": "forge:raw_materials/arlemite",
+        "tag": "c:raw_materials/arlemite",
         "count": 3
       },
       {
-        "tag": "forge:raw_materials/arlemite",
+        "tag": "c:raw_materials/arlemite",
         "chance": 0.5
       },
       {
-        "tag": "forge:raw_materials/arlemite",
+        "tag": "c:raw_materials/arlemite",
         "chance": 0.5
       }
     ]

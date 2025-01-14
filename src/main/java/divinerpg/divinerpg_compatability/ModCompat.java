@@ -2,10 +2,8 @@ package divinerpg.divinerpg_compatability;
 
 import divinerpg.divinerpg_compatability.iron_jetpacks.IronJetpacksCompat;
 import divinerpg.divinerpg_compatability.mystical_agriculture.MysticalCustomizationCompat;
-import net.minecraftforge.fml.ModList;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-
-import java.io.IOException;
+import net.neoforged.fml.ModList;
+import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 
 public class ModCompat {
     public static void initCommon(FMLCommonSetupEvent e) {

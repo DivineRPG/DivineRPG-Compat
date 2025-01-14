@@ -2,7 +2,7 @@
   "type": "resourcepandas:panda_recipe",
   "name": "Realmite",
   "ingredient": {
-    "tag": "forge:storage_blocks/realmite"
+    "tag": "c:storage_blocks/realmite"
   },
   "hexColor": "#e09422",
   "chance": 0.6,

@@ -4,7 +4,7 @@
     "item": "industrialforegoing:laser_lens2"
   },
   "output": {
-    "tag": "forge:ores/bloodgem"
+    "tag": "c:ores/bloodgem"
   },
   "pointer": 0,
   "rarity": [

@@ -6,13 +6,13 @@
     {
       "count": 1,
       "ingredient": {
-        "tag": "forge:ingots/arlemite"
+        "tag": "c:ingots/arlemite"
       }
     },
     {
       "count": 1,
       "ingredient": {
-        "tag": "forge:ingots/rupee"
+        "tag": "c:ingots/rupee"
       }
     }
   ],

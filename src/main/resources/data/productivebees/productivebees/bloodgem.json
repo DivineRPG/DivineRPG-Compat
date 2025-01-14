@@ -1,15 +1,15 @@
 {
   "primaryColor": "#ff3399",
   "secondaryColor": "#ffb3d9",
-  "flowerTag": "forge:storage_blocks/bloodgem",
+  "flowerTag": "c:storage_blocks/bloodgem",
   "name": "Bloodgem",
   "conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "productivebees"
     },
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "divinerpg"
     }
   ]

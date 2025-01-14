@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion = "[${loader_version_range},)"
+license="All rights reserved"
+issueTrackerURL="https://github.com/DivineRPG/DivineRPG-Compat/issues"
+
+[[mods]] #mandatory
+modId = "divinerpg_compat" #mandatory
+version = "1.0.3" #mandatory
+displayName = "DivineRPG: Compatability" #mandatory
+updateJSONURL = "https://raw.githubusercontent.com/DivineRPG/DivineRPG-Assets/main/divinerpg_compat.json" #optional
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/divinerpg-compatability" #optional
+logoFile = "logo.png" #optional
+credits = "NicosaurusRex99, The_Lemon_Juiced" #optional
+description = '''Adds compatability for various mods to DivineRPG'''
+
+[[dependencies.divinerpg]] #optional
+modId = "neoforge" #mandatory
+mandatory = true #mandatory
+versionRange = "${neo_version_range}" #mandatory
+ordering = "NONE"
+side = "BOTH"

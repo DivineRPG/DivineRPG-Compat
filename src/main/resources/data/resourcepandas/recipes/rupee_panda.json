@@ -2,7 +2,7 @@
   "type": "resourcepandas:panda_recipe",
   "name": "Rupee",
   "ingredient": {
-    "tag": "forge:storage_blocks/rupee"
+    "tag": "c:storage_blocks/rupee"
   },
   "hexColor": "#24c7e0",
   "chance": 0.3,

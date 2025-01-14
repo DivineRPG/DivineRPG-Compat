@@ -2,7 +2,7 @@
   "type": "resourcepandas:panda_recipe",
   "name": "Arlemite",
   "ingredient": {
-    "tag": "forge:storage_blocks/arlemite"
+    "tag": "c:storage_blocks/arlemite"
   },
   "hexColor": "#79f03a",
   "chance": 0.3,

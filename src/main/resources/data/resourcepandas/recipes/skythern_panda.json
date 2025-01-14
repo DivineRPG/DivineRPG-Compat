@@ -2,7 +2,7 @@
   "type": "resourcepandas:panda_recipe",
   "name": "Skythern",
   "ingredient": {
-    "tag": "forge:storage_blocks/skythern"
+    "tag": "c:storage_blocks/skythern"
   },
   "hexColor": "#ccd9db",
   "chance": 0.3,

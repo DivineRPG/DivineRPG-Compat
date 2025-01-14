@@ -1,7 +1,7 @@
 {
   "type": "productivebees:centrifuge",
   "ingredient": {
-    "type": "forge:nbt",
+    "type": "neoforge:nbt",
     "item": "productivebees:configurable_honeycomb",
     "nbt": {
       "EntityTag": {
@@ -20,7 +20,7 @@
     },
     {
       "item": {
-        "tag": "forge:wax"
+        "tag": "c:wax"
       }
     },
     {

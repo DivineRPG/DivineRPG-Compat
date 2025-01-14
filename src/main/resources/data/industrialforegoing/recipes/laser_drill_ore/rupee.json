@@ -1,13 +1,13 @@
 {
-  "type": "forge:conditional",
+  "type": "neoforge:conditional",
   "recipes": [
     {
       "conditions": [
         {
-          "type": "forge:not",
+          "type": "neoforge:not",
           "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:raw_materials/rupee"
+            "type": "neoforge:tag_empty",
+            "tag": "c:raw_materials/rupee"
           }
         }
       ],
@@ -17,7 +17,7 @@
           "item": "industrialforegoing:laser_lens3"
         },
         "output": {
-          "tag": "forge:raw_materials/rupee"
+          "tag": "c:raw_materials/rupee"
         },
         "pointer": 0,
         "rarity": [

@@ -2,7 +2,7 @@
   "type": "resourcepandas:panda_recipe",
   "name": "Eden",
   "ingredient": {
-    "tag": "forge:storage_blocks/eden"
+    "tag": "c:storage_blocks/eden"
   },
   "hexColor": "#b85407",
   "chance": 0.2,

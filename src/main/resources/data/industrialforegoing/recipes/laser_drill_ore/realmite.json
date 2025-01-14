@@ -1,13 +1,13 @@
 {
-  "type": "forge:conditional",
+  "type": "neoforge:conditional",
   "recipes": [
     {
       "conditions": [
         {
-          "type": "forge:not",
+          "type": "neoforge:not",
           "value": {
-            "type": "forge:tag_empty",
-            "tag": "forge:raw_materials/realmite"
+            "type": "neoforge:tag_empty",
+            "tag": "c:raw_materials/realmite"
           }
         }
       ],
@@ -17,7 +17,7 @@
           "item": "industrialforegoing:laser_lens1"
         },
         "output": {
-          "tag": "forge:raw_materials/realmite"
+          "tag": "c:raw_materials/realmite"
         },
         "pointer": 0,
         "rarity": [

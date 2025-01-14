@@ -4,7 +4,7 @@
   "results": [
     {
       "item": {
-        "type": "forge:nbt",
+        "type": "neoforge:nbt",
         "item": "productivebees:configurable_honeycomb",
         "nbt": {
           "EntityTag": {

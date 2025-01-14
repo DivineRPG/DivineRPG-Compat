@@ -4,7 +4,7 @@
     "item": "industrialforegoing:laser_lens14"
   },
   "output": {
-    "tag": "forge:raw_materials/torridite"
+    "tag": "c:raw_materials/torridite"
   },
   "pointer": 0,
   "rarity": [
