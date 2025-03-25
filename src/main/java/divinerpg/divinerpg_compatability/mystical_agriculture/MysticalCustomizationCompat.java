@@ -15,6 +15,9 @@ public class MysticalCustomizationCompat {
         jsonContentMap.put("skythern_fragments.json", generateJSON("Skythern Fragments", 4, "divinerpg:skythern_fragments", "D6D6D1", "mysticalagriculture:block/flower_gem", "mysticalagriculture:item/essence_gem", "mysticalagriculture:item/mystical_seeds", 0.4, "divinerpg:skythern_block"));
         jsonContentMap.put("mortum_fragments.json", generateJSON("Mortum Fragments", 5, "divinerpg:mortum_fragments", "251E1E", "mysticalagriculture:block/flower_gem", "mysticalagriculture:item/essence_gem", "mysticalagriculture:item/mystical_seeds", 0.4, "divinerpg:mortum_block"));
 
+        jsonContentMap.put("oxdrite_ingot.json", generateJSON("Oxdrite Ingot", 3, "divinerpg:oxdrite_ingot", "9c4a2a", "mysticalagriculture:block/flower_ingot", "mysticalagriculture:item/essence_ingot", "mysticalagriculture:item/mystical_seeds", 0.4));
+        jsonContentMap.put("anthracite_panda.json", generateJSON("Anthracite", 2, "divinerpg:anthracite", "000000", "mysticalagriculture:block/flower_ingot", "mysticalagriculture:item/essence_ingot", "mysticalagriculture:item/mystical_seeds", 0.4));
+
         jsonContentMap.put("arlemite_ingot.json", generateJSON("Arlemite Ingot", 5, "divinerpg:arlemite_ingot", "9DD75A", "mysticalagriculture:block/flower_ingot", "mysticalagriculture:item/essence_ingot", "mysticalagriculture:item/mystical_seeds", 0.4));
         jsonContentMap.put("bloodgem.json", generateJSON("Bloodgem", 4, "divinerpg:bloodgem", "E76587", "mysticalagriculture:block/flower_gem", "mysticalagriculture:item/essence_gem", "mysticalagriculture:item/mystical_seeds", 0.4));
         jsonContentMap.put("realmite_ingot.json", generateJSON("Realmite Ingot", 3, "divinerpg:realmite_ingot", "E48E2A", "mysticalagriculture:block/flower_ingot", "mysticalagriculture:item/essence_ingot", "mysticalagriculture:item/mystical_seeds", 0.4));

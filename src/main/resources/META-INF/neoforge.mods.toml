@@ -5,7 +5,7 @@ issueTrackerURL="https://github.com/DivineRPG/DivineRPG-Compat/issues"
 
 [[mods]] #mandatory
 modId = "divinerpg_compat" #mandatory
-version = "1.0.3" #mandatory
+version = "1.0.4" #mandatory
 displayName = "DivineRPG: Compatability" #mandatory
 updateJSONURL = "https://raw.githubusercontent.com/DivineRPG/DivineRPG-Assets/main/divinerpg_compat.json" #optional
 displayURL = "https://www.curseforge.com/minecraft/mc-mods/divinerpg-compatability" #optional
