@@ -1,0 +1,17 @@
+{
+  "schema_version": "imm_ptl:v1",
+  "from": ["minecraft:overworld"],
+  "to": "divinerpg:eden",
+  "form": {
+    "type": "imm_ptl:classical",
+    "from_frame_block": "divinerpg:eden_block",
+    "area_block": "minecraft:air",
+    "to_frame_block": "divinerpg:eden_block",
+    "generate_frame_if_not_found": true
+  },
+  "trigger": {
+    "type": "imm_ptl:use_item",
+    "item": "divinerpg:frozen_clock",
+    "nbt": "{'divinerpg:variant':1b}"
+  }
+}

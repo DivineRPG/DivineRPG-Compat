@@ -93,6 +93,8 @@ dependencies {
     compileOnly("curse.maven:official-divinerpg-363543:${divinerpg_id}") // DivineRPG
     runtimeOnly("curse.maven:official-divinerpg-363543:${divinerpg_id}") // DivineRPG
     runtimeOnly("curse.maven:jade-324717:${jade_id}") // Jade
+    runtimeOnly("curse.maven:cloth-config-348521:${cloth_id}") // Cloth
+    runtimeOnly("curse.maven:immersive-portals-for-forge-355440:${immersive_portals_id}") // Immersive Portals
     implementation("com.blakebr0.cucumber:Cucumber:${minecraft_version}-${cucumber_version}") // Cucumber
     implementation("com.blakebr0.mysticalagriculture:MysticalAgriculture:${minecraft_version}-${mystical_agriculture_version}") // Mystical Agriculture
     implementation("com.blakebr0.mysticalcustomization:MysticalCustomization:${minecraft_version}-${mystical_customization_version}") // Mystical Customization

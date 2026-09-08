@@ -1,0 +1,12 @@
+{
+  "schema_version": "imm_ptl:v1",
+  "from": ["minecraft:overworld"],
+  "to": "divinerpg:arcana",
+  "form": {
+    "type": "imm_ptl:convert_conventional_portal",
+    "portal_block": "divinerpg:arcana_portal"
+  },
+  "trigger": {
+    "type": "imm_ptl:conventional_dimension_change"
+  }
+}
